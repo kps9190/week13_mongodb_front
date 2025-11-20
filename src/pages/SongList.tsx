@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import SongCard from '../components/SongCard.tsx'
-import type { Song } from '../interfaces/SongInterface.tsx'
+import type {Song} from '../interfaces/SongInterface.tsx'
 
 
 interface Props {
