@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api/songs',
+    baseURL: 'https://week12-mongodb-backend.onrender.com/api/songs',
 })
 
 export const getSongList = async () => {
